@@ -6,7 +6,8 @@ import PrimarySearchAppBar from './components/SearchBar'
 function App() {
   return (
     <div className="App">
-      <PrimarySearchAppBar />     
+      <PrimarySearchAppBar /> 
+      <h1>Learn about your favorite movies!</h1>    
     </div>
   );
 }
