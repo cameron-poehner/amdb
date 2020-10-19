@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import PrimarySearchAppBar from './components/SearchBar'
+import query from './components/SearchBar'
 
 
 function App() {
   return (
     <div className="App">
       <PrimarySearchAppBar /> 
-      <h1>Learn about your favorite movies!</h1>    
+      { query ? <h1>Find all your favorite movies!</h1> : <div></div> }    
     </div>
   );
 }
