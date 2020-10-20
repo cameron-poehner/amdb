@@ -87,6 +87,10 @@ export default function PrimarySearchAppBar() {
         const res = await fetch(url);
         const data = await res.json();
         setMovies(data.results);
+        let node = document.getElementById("greeting");
+            if (node.parentNode) {
+            node.parentNode.removeChild(node);
+}
         console.log(data);
     }catch(err){
         console.error(err)
