@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import PrimarySearchAppBar from './components/SearchBar'
+import Navbar from './components/Navbar'
 
 
 
 function App() {
   return (
     <div className="App">
-      <PrimarySearchAppBar /> 
+      <Navbar /> 
       <div id="jumbotron">
         <div className="greeting">
           <h1>All Movie Database</h1>    

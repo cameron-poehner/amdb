@@ -66,10 +66,6 @@ p {
   position: absolute;
 }
 
-
-
-
-
 .card-container {
   display: grid;
   justify-items: center;
@@ -83,32 +79,63 @@ p {
 
 .card {
   max-width: 875px;
-  padding: 20px 4rem;
+  padding: 0;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
   margin-bottom: 2rem;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: #3f51b5;
   color: white;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 .card--title {
-  margin-bottom: 0.5rem;
-  font-size: 3.2rem;
+  font-size: 50px;
+  align-self: start;
 }
 
 .card--image {
-  margin: 0 auto;
-  display: block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+  margin-top: 60px;
+}
+
+.card--desc {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 40px;
 }
 
 @media (max-width: 700px) {
 
+  .input {
+    max-width: 25px;
+  }
+
   .jumbotron {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 100vw;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .greeting {
+    margin-top: 0;
+    line-height: 25px;
   }
 
   h1 {
@@ -116,7 +143,26 @@ p {
     line-height: 1;
   }
 
+
+
+  .popcorn {
+    visibility: hidden;
+    display: none;
+    height: 0;
+  }
+
+
+
   .card {
     max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+  .card--content {
+    
+  }
+
 }
