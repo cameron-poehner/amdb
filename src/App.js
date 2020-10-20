@@ -12,7 +12,8 @@ function App() {
         <div className="greeting">
           <h1>All Movie Database</h1>    
           <p>Get behind the scenes info on all your favorite movies</p>
-          <img aria-hidden="true" src="clapperboard.png" alt="" />
+          <p>Type your movie title into the search bar and hit enter to begin</p>
+          <img className="clapper" aria-hidden="true" src="clapperboard.png" alt="" />
         </div>
         <div className="desktopImg">
               <img className="popcorn" aria-hidden="true" src="popcorn.png" alt="" />
