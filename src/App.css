@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -5,8 +7,63 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #636469;
+  background-color: #0c0145;
+  color: #e1e1e3;
 }
+
+#jumbotron {
+  display: grid;
+  grid-template-columns: 1fr 2fra 1fr;
+  justify-items: start;
+  text-align: left;
+  width: 100vw;
+}
+
+.greeting {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: 'Roboto', sans-serif;
+  z-index: 1;
+  width: 70vw;
+  padding: 25px;
+  margin-top: 10vh;
+  line-height: 25px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  position: absolute;
+}
+
+.desktopImg {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: center;
+  align-self: stretch;
+  z-index: 0;
+  padding-left: 100px;
+  margin-left: 100px;
+}
+
+.popcorn {
+  width: 300px;
+  height: 300px;
+}
+
+
+
 
 .card-container {
   display: grid;
@@ -42,6 +99,18 @@ body {
 }
 
 @media (max-width: 700px) {
+
+  .jumbotron {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+
   .card {
     max-width: 375px;
   }

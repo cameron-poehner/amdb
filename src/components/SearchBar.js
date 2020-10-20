@@ -87,7 +87,7 @@ export default function PrimarySearchAppBar() {
         const res = await fetch(url);
         const data = await res.json();
         setMovies(data.results);
-        let node = document.getElementById("greeting");
+        let node = document.getElementById("jumbotron");
             if (node.parentNode) {
             node.parentNode.removeChild(node);
 }
@@ -102,7 +102,7 @@ export default function PrimarySearchAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            AMDB
+            AMDb
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
