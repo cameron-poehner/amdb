@@ -133,13 +133,13 @@
 //           </div>
 //         </Toolbar>
 //       </AppBar>
-//       <div className='card-container'>
-//         <div className='card-list'>
-//         {movies.filter(movie => movie.poster_path).map(movie => (
-//             <Display movie={movie} key={movie.id} />
-//         ))}   
-//         </div>   
-//         </div>
+      // <div className='card-container'>
+      //   <div className='card-list'>
+      //   {movies.filter(movie => movie.poster_path).map(movie => (
+      //       <Display movie={movie} key={movie.id} />
+      //   ))}   
+      //   </div>   
+      //   </div>
 //     </div>
 //   );
 // }
