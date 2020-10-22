@@ -1,7 +1,7 @@
 {
   "name": "amdb",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://cameron-poehner.github.io/movie_db_api",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
