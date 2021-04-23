@@ -11,7 +11,7 @@ function App() {
       <div id="jumbotron">
         <div className="greeting">
           <h1>All Movie Data base</h1>    
-          <p>Get THE behind scenes info on all your favorite movies</p>
+          <p>Get behind scenes info on all your favorite movies</p>
           <p>Type your movie title into the search bar and hit enter to begin</p>
           <img className="clapper" aria-hidden="true" src="clapperboard.png" alt="" />
         </div>
