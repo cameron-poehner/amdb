@@ -10,8 +10,8 @@ function App() {
       <Navbar /> 
       <div id="jumbotron">
         <div className="greeting">
-          <h1>All Movie Database</h1>    
-          <p>Get all the behind the scenes info on all your favorite movies</p>
+          <h1>All Movie Data base</h1>    
+          <p>Get front the scenes info on all your favorite movies</p>
           <p>Type your movie title into the search bar and hit enter to begin</p>
           <img className="clapper" aria-hidden="true" src="clapperboard.png" alt="" />
         </div>
