@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/amdb/static/css/main.5e632dd4.chunk.css",
+    "main.js": "/amdb/static/js/main.7bb5011e.chunk.js",
+    "main.js.map": "/amdb/static/js/main.7bb5011e.chunk.js.map",
+    "runtime-main.js": "/amdb/static/js/runtime-main.83360176.js",
+    "runtime-main.js.map": "/amdb/static/js/runtime-main.83360176.js.map",
+    "static/js/2.27e69889.chunk.js": "/amdb/static/js/2.27e69889.chunk.js",
+    "static/js/2.27e69889.chunk.js.map": "/amdb/static/js/2.27e69889.chunk.js.map",
+    "index.html": "/amdb/index.html",
+    "precache-manifest.9809cc8a50a43d9fda9fdfad32ce3bd2.js": "/amdb/precache-manifest.9809cc8a50a43d9fda9fdfad32ce3bd2.js",
+    "service-worker.js": "/amdb/service-worker.js",
+    "static/css/main.5e632dd4.chunk.css.map": "/amdb/static/css/main.5e632dd4.chunk.css.map",
+    "static/js/2.27e69889.chunk.js.LICENSE.txt": "/amdb/static/js/2.27e69889.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83360176.js",
+    "static/js/2.27e69889.chunk.js",
+    "static/css/main.5e632dd4.chunk.css",
+    "static/js/main.7bb5011e.chunk.js"
+  ]
+}
