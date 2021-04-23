@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b140dade53d66f961d857371a9250967",
+    "revision": "20b27dd0a78c8193e9980b87014e7a7b",
     "url": "/amdb/index.html"
   },
   {
-    "revision": "15be86fc4ac21827fbc0",
+    "revision": "273670b5e3d212d95f27",
     "url": "/amdb/static/css/main.5e632dd4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amdb/static/js/2.27e69889.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15be86fc4ac21827fbc0",
-    "url": "/amdb/static/js/main.7bb5011e.chunk.js"
+    "revision": "273670b5e3d212d95f27",
+    "url": "/amdb/static/js/main.4fa12037.chunk.js"
   },
   {
     "revision": "df84426ed3cdaf08541a",
